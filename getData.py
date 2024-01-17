@@ -40,7 +40,7 @@ def downloadTable(url, name, year):
         sys.stdout.flush()
         wavfile.retrieve( 'http://cis.whoi.edu/' + flname , dir + '/' + flnames[5] )
 
-    print '->'
+    print('->')
 
 def downloadAllAnimals(url):
     r = requests.get(url)
