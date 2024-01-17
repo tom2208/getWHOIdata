@@ -54,7 +54,7 @@ def downloadAllAnimals(url):
         url_end = species['value']
         name = species.string.strip()
         
-        print "Downloading " + name
+        print("Downloading " + name)
         
         name = name.replace(' ', '')
         name = name.replace('-', '_')
