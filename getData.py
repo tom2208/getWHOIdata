@@ -71,7 +71,7 @@ def downloadAllAnimals(url):
             urlFin = years['value']
             year = years.string.strip()
             
-            print "         " + "\t" + year
+            print("         " + "\t" + year)
 
             downloadTable("http://cis.whoi.edu/science/B/whalesounds/" + urlFin, name, year)
 
